@@ -285,12 +285,9 @@ a {
 }
 .benefits-list {
     display: flex;
-    margin-bottom: 94px;
-
 }
 .benefits-item { 
     flex-basis: 270px;
-    height: 101px;
 }
 .benefits-item:not(:last-child) {
     margin-right: 30px;
@@ -357,18 +354,12 @@ a {
 .social-link-items {
    display: flex;
    justify-content: center;
-   margin-right: 32px;
-   margin-left: 32px;
-   margin-bottom: 30px;
-}
-.social-link-list 
-.social-link-list:not(:last-child) {
-    margin-right: 10px;
+  
 }
 .social-link {
-    display: flex;
     align-items: center;
     justify-content: center;
+    
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -376,23 +367,18 @@ a {
     fill: var(--icon-cl);
     cursor: pointer;
 }
+.social-link-list:not(:last-child) {
+    margin-right: 10px;
+}
 .social-link-list:hover .social-link,
 .social-link-list:focus .social-link{
     fill: var(--light-txt-cl);
     background-color: var(--accent-txt-color);
     
 }
-.alt-description {
-    color: var(--artcl-txt-cl);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 .name-disc {
    padding-top: 30px;
-   padding-bottom: 16px;
+   padding-bottom: 30px;
 }
 .alt-description {
     font-weight: 400;
@@ -401,6 +387,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey-txt-cl);
+    margin-bottom: 16px;
 }
 .port-ex {
     display: flex;
@@ -460,9 +447,8 @@ a {
     border: 1px solid var(--accent-txt-color);
     cursor: pointer;
 }
-.clients-container {
-    margin-top: 94px;
-    margin-bottom: 94px;
+.clients {
+    padding: 94px 0;
 
 }
 /* footer */
@@ -482,7 +468,7 @@ a {
     display: flex;
     fill: var(--light-txt-cl);
     cursor: pointer;
-    margin-top: 22px;
+    
 }
 .social-link-footer:hover,
 .social-link-footer:focus {
@@ -540,4 +526,5 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--light-txt-cl);
+    margin-bottom: 20px;
 }
